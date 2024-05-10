@@ -1,1 +1,51 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.noto-serif-jp-regular {
+  font-family: "Noto Serif JP", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 5em;
+  height: fit-content;
+  width: fit-content;
+  margin: 0;
+}
+
+.card {
+  height: 500px;
+  width: 300px;
+  border-radius: 1.5em;
+}
+#divPalo1,
+#divPalo2 {
+  max-width: fit-content;
+  max-height: fit-content;
+}
+#numero {
+  font-size: 10em;
+  font-family: "Noto Serif JP", serif;
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.img-fluid {
+  max-width: 5em;
+  max-height: 5em;
+}
+#divPalo2 {
+  transform: scaleY(-1);
+}
+.fa-solid {
+  cursor: pointer;
+}
